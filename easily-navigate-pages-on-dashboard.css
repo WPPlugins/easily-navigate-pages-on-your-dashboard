@@ -1,0 +1,47 @@
+/*
+
+Easy Navigate Dashboard Pages
+
+*/
+
+#easily-navigate-pages-on-dashboard li {
+	list-style: none; 
+	margin: 3px 0px 3px 20px ; 
+	background: url(images/txt-more.png) left top no-repeat; 
+	padding: 10px 0px 10px 0px;
+	clear: both;
+	
+}
+#easily-navigate-pages-on-dashboard a {
+	margin-right: 20px;
+	display: block;
+	float: left;
+	margin-top: -8px;
+}
+
+#easily-navigate-pages-on-dashboard .not-folder {
+	background: url(images/txt.png) left top no-repeat; 
+}
+
+#easily-navigate-pages-on-dashboard .open {
+	background: url(images/txt-less.png) left top no-repeat; 
+}
+#easily-navigate-pages-on-dashboard .expand {float: left; display: block; width: 16px; height: 16px; margin-right: 8px;  }
+
+#easily-navigate-pages-on-dashboard .pagelink { width: 200px;}
+
+#easily-navigate-pages-on-dashboard a.devlink { 
+	font-size: 0.8em; 
+	color: #c9c9c9; 
+	float: right; 
+	display: block;
+	background: url(images/open-new-window.gif) right no-repeat;
+	width: 100px;
+	height: 20px;
+	padding-top: 8px;
+}
+#easily-navigate-pages-on-dashboard a.devlink:hover { 
+	color: #5d5d5d; 
+	text-decoration: underline;
+	background: url(images/open-new-window-hover.gif) right no-repeat;
+}
